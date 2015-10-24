@@ -1,0 +1,14 @@
+{
+  "name": "PersonalSiteWeb",
+  "authors": [
+    "Muralidharan <muralidharan84@gmail.com>"
+  ],
+  "description": "My Personal Site Libraries",
+  "main": "angularjs",
+  "moduleType": [],
+  "keywords": [
+    "angularjs"
+  ],
+  "license": "MIT",
+  "homepage": "http://stylesnscript.com"
+}
