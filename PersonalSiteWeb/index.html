@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+<html ng-app="MyPersonalSite">
+<head>
+    <title>StylesNScripts</title>
+    <meta name="viewport" content="initial-scale=1" />
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="css/materialize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+</head>
+<body ng-controller="MyPersonalSiteCtrl">
+<div class="navbar-fixed transparent">
+<nav class="transparent" role="navigation">
+    <div class="nav-wrapper container">
+        <a href="#home" class="brand-logo">Logo</a>
+        <a href="#home" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+        <ul class="right hide-on-med-and-down">
+            <li><a class="waves-effect waves-light" href="#home"><i class="material-icons left black-text" style="font-size: 3em">home</i></a></li>
+            <li><a class="waves-effect waves-light" href="#about"><i class="material-icons left black-text" style="font-size: 3em">web</i></a></li>
+            <li><a class="waves-effect waves-light" href="#contact"><i class="material-icons left black-text" style="font-size: 3em">contact_phone</i></a></li>
+        </ul>
+        <ul class="side-nav  grey lighten-2" id="mobile-demo">
+            <li><a class="waves-effect waves-light" href="#home"><i class="material-icons left black-text" style="font-size: 3em">home</i>Home</a></li>
+            <li><a class="waves-effect waves-light" href="#about"><i class="material-icons left black-text" style="font-size: 3em">web</i>Portfolio</a></li>
+            <li><a class="waves-effect waves-light" href="#contact"><i class="material-icons left black-text" style="font-size: 3em">contact_phone</i>Contact</a></li>
+        </ul>
+    </div>
+</nav>
+</div>
+<div ng-view></div>
+<script type="javascript">
+ </script>
+<script src="js/jquery.js"></script>
+<script src="js/angular.js"></script>note
+<script src="js/angular-animate.js"></script>
+<script src="js/angular-route.js"></script>
+<script src="js/materialize.js"></script>
+<script src="js/controller.js"></script>
+</body>
+</html>
